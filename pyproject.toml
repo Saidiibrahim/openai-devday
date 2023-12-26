@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "openai-devday"
+version = "0.0.1"
+description = "My playground for OpenAI demo day"
+authors = ["ibrahimsaidi <ibrahim.aka.ajax@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+python-dotenv = "^1.0.0"
+openai = "^1.6.1"
+moviepy = "^1.0.3"
+opencv-python = "^4.8.1.78"
+langchain = "^0.0.352"
+langsmith = "^0.0.75"
+e2b = "^0.13.15"
+duckduckgo-search = "^4.1.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.27.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

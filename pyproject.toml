@@ -16,6 +16,10 @@ langchain = "^0.0.352"
 langsmith = "^0.0.75"
 e2b = "^0.13.15"
 duckduckgo-search = "^4.1.0"
+pymupdf = "^1.24.1"
+matplotlib = "^3.8.4"
+instructor = "^1.2.0"
+pandas = "^2.2.2"
 
 
 [tool.poetry.group.dev.dependencies]
